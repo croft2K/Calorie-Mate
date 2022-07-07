@@ -1,0 +1,48 @@
+
+body{
+
+    background-color: black;
+}
+
+
+h1{
+    font-family: 'Titan One', cursive;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: 'Titan One', cursive;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.formcontainer{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.form_p {
+    text-align: center;
+    color: white;
+    width: auto;
+    margin: auto;
+}
