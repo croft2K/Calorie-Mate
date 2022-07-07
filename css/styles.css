@@ -46,3 +46,10 @@ p{
     width: auto;
     margin: auto;
 }
+
+.foodimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
