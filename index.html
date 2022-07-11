@@ -37,53 +37,68 @@
       <img class="foodimg" src="img/food.jpg" alt="Food" width="300" height="300">
     </div>
   </div>
-
+  <br>
   <div class="row justify-content-center">
     <div class ="col-12 align-self-center">
-      <h2>How to use</h2>
+      
       <p>Have you ever tried to work out the calories contained in a specific portion size and found it tricky?</p>
       <p><strong>This app is designed to help!</strong></p>
-      <p>First, enter the pack size in grams. Next, enter the calorie example shown on the pack (usually this is something like 135kcal per 100g).</p>
-      <p>Lastly, enter your specific portion size (in grams) and hit Calculate. The app will then show how may calories are contained in your specific portion.</p>
-      <p><strong>Simple!</strong></p>
+  
     </div>
   </div>
 
   <div class="formcontainer">
-    <div class="row justify-content-center"> <p>Enter the pack size in grams</p></div>
+    <div class="row justify-content-center"><p class="instructions">Enter the pack size in grams</p></div>
+    <br>
   <div class="row justify-content-center">
-  <div class="col-7">
+  <div class="col-3">
   
     <div class="input-group mb-3">
 
      
-      <input type="text" class="form-control" placeholder="g" aria-label="grams" aria-describedby="basic-addon1">
+      <input id="f_packsize" type="text" class="form-control" placeholder="g" aria-label="grams" aria-describedby="basic-addon1">
   </div>
   </div>
   </div>
   <br>
-  <div class="row justify-content-center"><p>Enter the kcal example on the pack (e.g. 80kcals per 100g)</p></div>
-  
+  <div class="row justify-content-center"><p class="instructions">Enter the portion information on the pack</p></div>
+  <div class="row justify-content-center"><p><strong>Example :</strong> 80kcals in 100g</p></div>
+  <br>
+
   <div class="row justify-content-center">
     <div class="col-3">
     <div class="input-group mb-3">
       
-      <input type="text" class="form-control" placeholder="kcals" aria-label="kcals" aria-describedby="basic-addon2">
+      <input id="f_kcals" type="text" class="form-control" placeholder="kcals" aria-label="kcals" aria-describedby="basic-addon2">
       
     </div>
     </div>
 
     <div class="col-1">
-      <p class="form_p">per</p>
+      <p class="form_p"><strong>in</strong></p>
     </div>
 
     <div class="col-3">
       <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="g" aria-label="grams" aria-describedby="basic-addon2">
+        <input id="f_g" type="text" class="form-control" placeholder="g" aria-label="grams" aria-describedby="basic-addon2">
       </div>
       </div>
   </div>
   <br>
+  <div class="row justify-content-center"><p class="instructions">Tap the big green button!</p></div>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <button type="button" class="btn btn-success buttonblock">Go!</button>
+    </div>
+    </div>
+    <div class="row justify-content-center">
+    <div class="col-12">
+      <button type="button" class="btn btn-danger buttonblock">Reset</button>
+    </div>
+
+
+  </div>
 
 
 </div>
@@ -91,7 +106,7 @@
 
 <div class="row justify-content-center">
   <div class="col-12">
-<p>Photo by <a href="https://unsplash.com/@pwign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anh Nguyen</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<p class="stub">Photo by <a href="https://unsplash.com/@pwign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anh Nguyen</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
   </div>
 </div>
 

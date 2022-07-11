@@ -23,6 +23,13 @@ h2{
     margin-bottom: 2rem;
 }
 
+.foodimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
 p{
     color: white;
     font-size: 1rem;
@@ -47,9 +54,23 @@ p{
     margin: auto;
 }
 
-.foodimg{
+.instructions{
+    font-style: italic;
+}
+
+
+
+.buttonblock{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100%;
+    margin: auto;
+    height: 80px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.stub{
+    font-size:small;
 }
