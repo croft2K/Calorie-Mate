@@ -32,25 +32,26 @@
   </div>
   </div>
   
-  <div class="row justify-content-center">
+  <div class="row justify-content-center r_intro_image">
     <div class="col">
       <img class="foodimg" src="img/food.jpg" alt="Food" width="300" height="300">
     </div>
   </div>
-  <br>
-  <div class="row justify-content-center">
+
+  <div class="row justify-content-center r_intro">
     <div class ="col-12 align-self-center">
       
       <p>Have you ever tried to work out the calories contained in a specific portion size and found it tricky?</p>
-      <p><strong>This app is designed to help!</strong></p>
-  
+      <p class="end"><strong>This app is designed to help!</strong></p>
     </div>
   </div>
+</div>
 
+<div class="container-fluid">
   <div class="formcontainer">
-    <div class="row justify-content-center"><p class="instructions">Enter the pack size in grams</p></div>
-    <br>
-  <div class="row justify-content-center">
+    <div class="row justify-content-center r_yourportion"><p class="instructions">Enter the pack size in grams</p></div>
+  
+  <div class="row justify-content-center r_yourportion">
   <div class="col-3">
   
     <div class="input-group mb-3">
@@ -60,12 +61,14 @@
   </div>
   </div>
   </div>
-  <br>
-  <div class="row justify-content-center"><p class="instructions">Enter the portion information on the pack</p></div>
-  <div class="row justify-content-center"><p><strong>Example :</strong> 80kcals in 100g</p></div>
-  <br>
 
-  <div class="row justify-content-center">
+
+
+  <div class="row justify-content-center r_yourportion"><p class="instructions">Enter the portion information on the pack</p></div>
+  <div class="row justify-content-center r_yourportion"><p><strong>Example :</strong> 80kcals in 100g</p></div>
+
+
+  <div class="row justify-content-center r_yourportion">
     <div class="col-3">
     <div class="input-group mb-3">
       
@@ -82,26 +85,38 @@
       <div class="input-group mb-3">
         <input id="f_g" type="text" class="form-control" placeholder="g" aria-label="grams" aria-describedby="basic-addon2">
       </div>
-      </div>
+    </div>
   </div>
-  <br>
-  <div class="row justify-content-center"><p class="instructions">Tap the big green button!</p></div>
-  <br>
-  <div class="row justify-content-center">
+  <div class="row justify-content-center r_yourportion"><p class="instructions">Enter the size of your portion</p></div>
+  
+  <div class="row justify-content-center r_yourportion">
+  <div class="col-3">
+  
+    <div class="input-group mb-3">
+
+     
+      <input id="f_yourportion" type="text" class="form-control" placeholder="g" aria-label="grams" aria-describedby="basic-addon1">
+  </div>
+  </div>
+  </div>
+
+
+    <div class="row justify-content-center r_buttons"><p class="instructions end">Tap the big green button!</p>
+     
     <div class="col-12">
       <button type="button" class="btn btn-success buttonblock">Go!</button>
     </div>
-    </div>
-    <div class="row justify-content-center">
+   
     <div class="col-12">
       <button type="button" class="btn btn-danger buttonblock">Reset</button>
     </div>
 
+  
 
-  </div>
 
 
-</div>
+
+
 
 
 <div class="row justify-content-center">
@@ -110,6 +125,8 @@
   </div>
 </div>
 
+
+</div>
 </body>
 
 </html>
