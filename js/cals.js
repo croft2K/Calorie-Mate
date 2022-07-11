@@ -24,7 +24,7 @@ function go()
 
     iPortCal = i_kcals / i_g * i_yourportion
     iPortRounded = iPortCal.toFixed(0)
-    alert("Your portion contains " + iPortRounded + " calories");
+    alert("Your portion contains approximately " + iPortRounded + " calories");
 
 }
 
