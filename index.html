@@ -14,6 +14,8 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
 
+ 
+
     <link href="/css/styles.css" rel="stylesheet">
 
 
@@ -42,31 +44,29 @@
   <div class="row justify-content-center r_intro">
     <div class ="col-12 align-self-center">
       
-      <p>Have you ever tried to work out the calories contained in a specific portion size and found it tricky?</p>
-      <p class="end"><strong>This app is designed to help!</strong></p>
+      <p>Have you ever tried to work out the calories contained in a bespoke portion size and found it tricky?</p>
+      <p class="end"><strong>This app is designed to help</strong></p>
     </div>
   </div>
 </div>
 
 <div class="container-fluid">
   <div class="formcontainer">
-    <div class="row justify-content-center r_yourportion"><p class="instructions top">Enter the pack size in grams</p></div>
+    <div class="row justify-content-center r_yourportion"><p class="instructions top">Enter the total pack size in grams</p></div>
   
   <div class="row justify-content-center r_yourportion">
   <div class="col-3">
   
-    <div class="input-group mb-3">
-
-     
+    <div class="input-group">     
       <input id="f_packsize" type="text" class="form-control" placeholder="g" aria-label="grams" aria-describedby="basic-addon1">
+    
+    
+    </div>
   </div>
   </div>
   </div>
  
-  <div class="row justify-content-center r_yourportion"><p class="instructions">Enter the portion information on the pack</p></div>
-  <div class="row justify-content-center r_yourportion"><p><strong>Example - 80kcals in 100g</strong></p></div>
-
-
+  <div class="row justify-content-center r_yourportion"><p class="instructions top">Enter the calorie per portion info on the pack</p></div>
   <div class="row justify-content-center r_yourportion">
     <div class="col-3">
     <div class="input-group mb-3">
@@ -86,7 +86,7 @@
       </div>
     </div>
   </div>
-  <div class="row justify-content-center r_yourportion"><p class="instructions">Enter the size of your portion</p></div>
+  <div class="row justify-content-center r_yourportion"><p class="instructions top">Enter the size of your portion</p></div>
   
   <div class="row justify-content-center r_yourportion">
   <div class="col-3">
@@ -98,16 +98,13 @@
   </div>
   </div>
   </div>
-
-
-    <div class="row justify-content-center r_buttons"><p class="instructions top">Tap the big green button</p>
      
-    <div class="col-12">
-      <button type="button" class="btn btn-success buttonblock">Go!</button>
+    <div class="col-12 top">
+      <button type="button" class="btn btn-success shadow-none buttonblock go_button" onclick="go()">Go</button>
     </div>
    
     <div class="col-12">
-      <button type="button" class="btn btn-danger buttonblock">Reset</button>
+      <button type="button" class="btn btn-danger shadow-none buttonblock reset_button">Reset</button>
     </div>
 
 <div class="row justify-content-center">
@@ -118,6 +115,9 @@
 
 
 </div>
+
+<script src="/js/cals.js"></script>
+
 </body>
 
 </html>

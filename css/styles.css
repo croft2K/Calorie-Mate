@@ -60,6 +60,7 @@ p{
     margin: auto;
 }
 
+
 .instructions{
     font-size: medium;
     font-family: 'Courgette', cursive;
@@ -83,6 +84,37 @@ p{
     border-radius: 0;
     margin-bottom: 15px;
     margin-top: 10px;
+}
+
+.go_button{
+    background-color: #ff9677;
+    border-color: #ff9677;
+}
+
+.btn-success:hover{
+    background-color:#41436a;
+    border-color:#41436a;
+}
+
+.btn-success:focus{
+    background-color:#41436a;
+    border-color:#41436a;
+}
+
+
+.reset_button{
+    background-color: #974063;
+    border-color: #974063;
+}
+
+.btn-danger:hover{
+    background-color:#41436a;
+    border-color: #41436a;
+}
+
+.btn-danger:focus{
+    background-color:#41436a;
+    border-color: #41436a;
 }
 
 .stub{
