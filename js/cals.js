@@ -36,5 +36,5 @@ function reset()
     document.getElementById("f_packsize").value = "";
     document.getElementById("f_kcals").value = "";
     document.getElementById("f_g").value = "";
-    document.getElementById("f_yourportion") = "";
+    document.getElementById("f_yourportion").value = "";
 }
