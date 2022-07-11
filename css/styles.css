@@ -12,7 +12,7 @@ body{
 .r_intro_image{
     background-color: #41436a;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 h1{
@@ -53,8 +53,6 @@ p{
 }
 
 
-
-
 .form_p {
     text-align: center;
     color: white;
@@ -63,11 +61,15 @@ p{
 }
 
 .instructions{
-    font-style: italic;
+    font-size: medium;
+    font-family: 'Courgette', cursive;
+}
+
+.top{
+    padding-top: 25px;
 }
 
 .end{
-    padding-top: 25px;
     padding-bottom: 25px;
 }
 
@@ -80,6 +82,7 @@ p{
     font-size: large;
     border-radius: 0;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .stub{
