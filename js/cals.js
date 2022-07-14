@@ -1,4 +1,6 @@
 
+var CalModal = new bootstrap.Modal(document.getElementById("CalModal"));
+
 function go()
 
 {
@@ -20,15 +22,16 @@ function go()
     let i_g = parseInt(g);
     let i_yourportion = parseInt(yourportion);
 
-
-
     iPortCal = i_kcals / i_g * i_yourportion
     iPortRounded = iPortCal.toFixed(0)
-    alert("Your portion contains approximately " + iPortRounded + " calories");
+
+
+  //  alert("Your portion contains approximately " + iPortRounded + " calories");
+    
+    document.getElementById("calories").innerHTML = iPortRounded;
+    CalModal.show();
 
 }
-
-
 
 function reset()
 
