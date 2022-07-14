@@ -11,6 +11,7 @@ function go()
     let yourportion
 
     let iPortCal
+    let iPackCal
 
     packsize = document.getElementById("f_packsize").value;
     kcals = document.getElementById("f_kcals").value;
@@ -23,12 +24,15 @@ function go()
     let i_yourportion = parseInt(yourportion);
 
     iPortCal = i_kcals / i_g * i_yourportion
+    iPackCal = i_kcals / i_g * i_packsize
     iPortRounded = iPortCal.toFixed(0)
+    iPackRounded = iPackCal.toFixed(0)
 
 
   //  alert("Your portion contains approximately " + iPortRounded + " calories");
     
-    document.getElementById("calories").innerHTML = iPortRounded;
+    document.getElementById("calories_portion").innerHTML = iPortRounded;
+    document.getElementById("calories_pack").innerHTML = iPackRounded;
     CalModal.show();
 
 }
