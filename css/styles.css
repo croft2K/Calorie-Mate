@@ -118,7 +118,9 @@ p{
 }
 
 .stub{
-    font-size:small;
+    font-size:x-small;
+    padding-top:25px;
+    padding-bottom:10px;
 }
 
 
@@ -137,4 +139,12 @@ p{
     color: black;
     text-align: center;
     font-size: large;
+}
+
+a:link {
+    color:#ff9677;
+}
+
+a:visited{
+    color:#ff9677;
 }
