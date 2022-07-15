@@ -1,3 +1,14 @@
+jQuery(document).ready(function() {
+  jQuery('input').keypress(function(e) {
+      var code = (e.keyCode ? e.keyCode : e.which);
+      if ( (code==13) || (code==10))
+          {
+          jQuery(this).blur();
+          return false;
+          }
+  });
+});
+
 
 var CalModal = new bootstrap.Modal(document.getElementById("CalModal"));
 var NotNumber = new bootstrap.Modal(document.getElementById("NotNumber"));
