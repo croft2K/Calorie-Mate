@@ -46,7 +46,7 @@ function go()
       document.getElementById("calories_portion").innerHTML = iPortRounded;
     document.getElementById("calories_pack").innerHTML = iPackRounded;
     CalModal.show();
-    return true;
+    return false;
     }
 
  
