@@ -36,25 +36,19 @@ function go()
 
     if (isNaN(iPortRounded))
     {
-      console.log("not a number!");
+     
       NotNumber.show();
       return false;
       
     }
     else {
-      console.log("is a number!");
+     
       document.getElementById("calories_portion").innerHTML = iPortRounded;
     document.getElementById("calories_pack").innerHTML = iPackRounded;
     CalModal.show();
     return true;
     }
 
-    
-  
-    //  alert("Your portion contains approximately " + iPortRounded + " calories");
-
-  
-    
  
 }
 
