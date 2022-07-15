@@ -2,10 +2,6 @@
 var CalModal = new bootstrap.Modal(document.getElementById("CalModal"));
 var NotNumber = new bootstrap.Modal(document.getElementById("NotNumber"));
 
-if (event.keyCode == 13) {
-  go()
-}
-
 
 function go()
 
