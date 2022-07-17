@@ -1,3 +1,7 @@
-A simple app to establish the calories in custom portion sizes based on the example provided on the food pack.
+A simple app to establish the calories contained in custom portion sizes.
+
+Bootstrap 5
+Javascript
+JQuery
 
 https://croftee.github.io/Calorie-Mate/
